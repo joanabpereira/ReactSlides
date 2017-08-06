@@ -1,6 +1,9 @@
 /* Google fonts */
 @import url('https://fonts.googleapis.com/css?family=Asap+Condensed|Lato');
 
+/* Font-awesome */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
 /* Colours*/
 $primary: #3aa6d0;
 $body: #eaeaea;
@@ -12,6 +15,11 @@ body{
 	padding: 0px;
 }
 
+h1, h2, h3, h4, h5, h6{
+	margin: 0px;
+	padding: 0px;
+}
+
 /* General CSS */
 body{
 	background-color: $body;
@@ -19,7 +27,7 @@ body{
 	font-family: 'Lato', sans-serif;
 }
 
-h2 {
+h1 {
 	color: $primary;
 	font-family: 'Asap Condensed', sans-serif;
 }
