@@ -1,8 +1,9 @@
-![](http://i.imgur.com/DUiL9yn.png)
+# React Slides
 
-# React/Sass/Redux Boilerplate
+Back when I did my Master's dissertation I had to build a presentation tool using only HTML, CSS and JavaScript.
+I decided to redo it but using React this time as a side-project.
 
-Boilerplate and guide for a React/Sass/Redux build.
+Built using a boilerplate by [thenewboston.com](https://thenewboston.com/)
 
 ## Getting Started
 
@@ -25,9 +26,4 @@ To view your project, go to: [http://localhost:3000/](http://localhost:3000/)
 
 ## Links
 
-- [Donate](https://www.patreon.com/thenewboston)
-- [thenewboston.com](https://thenewboston.com/)
-- [Facebook](https://www.facebook.com/TheNewBoston-464114846956315/)
-- [Twitter](https://twitter.com/bucky_roberts)
-- [Google+](https://plus.google.com/+BuckyRoberts)
-- [reddit](https://www.reddit.com/r/thenewboston/)
+- [Twitter](https://twitter.com/joanabpereira)

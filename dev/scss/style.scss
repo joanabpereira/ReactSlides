@@ -1,5 +1,25 @@
-$primary: #006699;
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Asap+Condensed|Lato');
+
+/* Colours*/
+$primary: #3aa6d0;
+$body: #eaeaea;
+$fontcolor: #292929;
+
+/* CSS reset */
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+/* General CSS */
+body{
+	background-color: $body;
+	color: $fontcolor;
+	font-family: 'Lato', sans-serif;
+}
 
 h2 {
 	color: $primary;
+	font-family: 'Asap Condensed', sans-serif;
 }
