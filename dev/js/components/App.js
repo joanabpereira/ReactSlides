@@ -15,7 +15,7 @@ const App = () => (
             </Col>
             <Col md={10}>
               This is a slides deck!
-              <Slide />
+              <Slide slideType="slide_title"/>
             </Col>
         </Row>
     </ExtendedGrid>
