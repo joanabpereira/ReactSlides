@@ -3,7 +3,7 @@
 Back when I did my Master's dissertation I had to build a presentation tool using only HTML, CSS and JavaScript.
 I decided to redo it but using React this time as a side-project.
 
-Built using a [React-Redux boilerplate](https://github.com/buckyroberts/React-Boilerplate) by [thenewboston.com](https://thenewboston.com/)
+Built using a [React-Redux boilerplate](https://github.com/buckyroberts/React-Redux-Boilerplate) by [thenewboston.com](https://thenewboston.com/)
 
 ## Getting Started
 
