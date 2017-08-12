@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import Tool from '../containers/Tool';
+import Button from '../containers/Button';
 
 export class Toolbar extends React.PureComponent {
     render(){
@@ -9,9 +10,13 @@ export class Toolbar extends React.PureComponent {
             <Toolcol>
                 <Row>
                     <Col sm={6}>
-                        <Tool name='bold' />
                     </Col>
                     <Col sm={6}>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col sm={12}>
+                        <Button text="new slide" />
                     </Col>
                 </Row>
             </Toolcol>
@@ -24,5 +29,6 @@ const Toolcol = styled.div`
     color: #eee;
     height: 90vh;
 `;
+
 
 export default Toolbar;
