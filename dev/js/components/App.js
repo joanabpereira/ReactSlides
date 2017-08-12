@@ -1,6 +1,7 @@
 import React from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import Toolbar from './Toolbar';
+import Deck from './Deck';
 import Logo from '../containers/Logo';
 import Slide from '../containers/Slide';
 import styled from 'styled-components';
@@ -14,8 +15,7 @@ const App = () => (
                 <Toolbar />
             </Col>
             <Col md={10}>
-              This is a slides deck!
-              <Slide slideType="slide_title"/>
+              <Deck />
             </Col>
         </Row>
     </ExtendedGrid>

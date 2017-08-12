@@ -1,7 +1,7 @@
-export const selectUser = (user) => {
-    console.log("You clicked on user: ", user.first);
-    return {
-        type: 'USER_SELECTED',
-        payload: user
+export const newSlide = (type) =>{
+    console.log('You want to add a new slide ' + type);
+    return{
+        type: 'NEW_SLIDE',
+        payload: type
     }
-};
+}
