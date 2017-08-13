@@ -21,9 +21,12 @@ export class Deck extends React.PureComponent {
 
     render(){
         return(
-            <div>
-                {this.renderSlides()}
-            </div>
+            <Row>
+                <Col md={11}>
+                    {this.renderSlides()}
+                </Col>
+                <Col md={1}></Col>
+            </Row>
         );
     }
 }

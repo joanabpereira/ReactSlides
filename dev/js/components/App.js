@@ -14,8 +14,11 @@ const App = () => (
                 <Logo />
                 <Toolbar />
             </Col>
-            <Col md={10}>
-              <Deck />
+            <Col md={9}>
+                <Deck />
+            </Col>
+            <Col md={1}>
+
             </Col>
         </Row>
     </ExtendedGrid>
